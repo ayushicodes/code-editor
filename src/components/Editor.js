@@ -15,7 +15,6 @@ function Editor(props) {
   return (
     <div className="editor-container">
       <div className="editor-title">
-        {" "}
         {displayTitle}
         <button>O/C</button>
       </div>

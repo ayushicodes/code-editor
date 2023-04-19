@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Editor from "./Editor.js";
-import "./../App.css";
 
 function App() {
   const [html, setHtml] = useState("");
