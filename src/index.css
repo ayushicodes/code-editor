@@ -17,6 +17,19 @@ body {
   padding: 0.5rem;
   background: #7393b3;
 }
+.editor-container.collasped {
+  flex-grow: 0;
+}
+.editor-container.collasped .CodeMirror-scroll {
+  position: absolute;
+}
+.expand-collasped-btn {
+  margin-left: 0.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
 .editor-title {
   display: flex;
   justify-content: space-between;
